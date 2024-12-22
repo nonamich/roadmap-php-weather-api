@@ -6,13 +6,11 @@ services:
     ports:
       - 6379:6379
   api:
-    image: php:8.2-cli-alpine
-    working_dir: /usr/src/app
+    build: .
     volumes:
       - .:/usr/src/app
-    command: "php -S 0.0.0.0:80 src/server.php"
     ports:
-      - 8080:80
+      - 8080:8080
 
 volumes:
   redis-cache:

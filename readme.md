@@ -15,3 +15,7 @@ cd roadmap-php-weather-api
 ```bash
 docker compose up --attach api
 ```
+
+## Open
+
+http://localhost:8080/api?location=kyiv

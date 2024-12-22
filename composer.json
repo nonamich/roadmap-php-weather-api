@@ -1,4 +1,7 @@
 {
+    "scripts": {
+        "server": "@php -S 0.0.0.0:8080 src/server.php"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src/"
