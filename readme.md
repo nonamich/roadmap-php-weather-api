@@ -10,6 +10,13 @@ git clone https://github.com/nonamich/roadmap-php-weather-api.git
 cd roadmap-php-weather-api
 ```
 
+## Environment
+
+```bash
+WEATHER_API_KEY=
+REDIS_URL="tcp://redis:6379"
+```
+
 ## Run
 
 ```bash
