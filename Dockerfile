@@ -9,5 +9,4 @@ RUN composer install
 
 EXPOSE 8080
 
-ENTRYPOINT ["composer"]
-CMD ["server"]
+CMD ["-S", "0.0.0.0:8080", "src/server.php"]

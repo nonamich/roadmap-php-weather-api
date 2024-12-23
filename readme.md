@@ -20,7 +20,7 @@ REDIS_URL="tcp://redis:6379"
 ## Run
 
 ```bash
-docker compose up --attach api
+docker compose up --build --attach api
 ```
 
 ## Open

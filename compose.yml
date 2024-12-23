@@ -6,9 +6,8 @@ services:
     ports:
       - 6379:6379
   api:
-    build: .
-    volumes:
-      - .:/usr/src/app
+    build:
+      context: .
     ports:
       - 8080:8080
 
